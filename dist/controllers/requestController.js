@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.cancelInProgressRequests = exports.getRequestList = exports.cancelRequest = exports.completeRequest = exports.takeRequestInProgress = exports.createRequest = void 0;
-const request_1 = require("../models/request"); // Import the Request class directly
+const request_1 = require("../models/request");
 const sequelize_1 = require("sequelize");
 const createRequest = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
